@@ -118,7 +118,7 @@ if(msg.hasOwnProperty("payload")){
   if (conteudo === "UID RFID: Chaveiro") {
     msg.payload = "Chaveiro identificado";
   } else if (conteudo === UID RFID: Cartão) {
-    msg.payload = Cartao identificado";
+    msg.payload = "Cartao identificado";
   } else {
       msg.payload = "Tag não reconhecida";
   }
